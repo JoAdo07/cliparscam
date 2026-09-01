@@ -47,3 +47,5 @@ Push to `main` → Vercel auto-deploys. First deploy created via `hermes` linkin
 
 18+ only. Report button + text moderation placeholder. Consider adding TURN server (e.g. Cloudflare Calls, Twilio) for NAT traversal beyond STUN.
 
+
+<!-- vercel git connect test 2026-09-01T13:56:48Z -->
