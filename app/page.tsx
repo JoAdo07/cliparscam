@@ -12,6 +12,7 @@ export default function Home() {
             <span className="ml-2 hidden sm:inline rounded-full bg-[#1a1a24] border border-[#2a2a3a] px-2.5 py-1 text-xs text-zinc-400">Omegle-style · WebRTC · Free</span>
           </div>
           <div className="flex items-center gap-2">
+            <Link href="/geo" className="hidden sm:inline rounded-full border border-[#2a2a3a] bg-[#14141c] px-4 py-2 text-sm font-semibold hover:bg-[#1a1a24]">🌍 Geo game</Link>
             <Link href="https://github.com/JoAdo07/cliparscam" className="hidden sm:inline rounded-full border border-[#2a2a3a] bg-[#14141c] px-4 py-2 text-sm font-semibold hover:bg-[#1a1a24]">GitHub</Link>
             <Link href="/chat" className="rounded-full bg-white px-5 py-2.5 text-sm font-black text-black hover:bg-zinc-100">Open CliparsCAM →</Link>
           </div>
@@ -32,6 +33,7 @@ export default function Home() {
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link href="/chat" className="rounded-2xl bg-gradient-to-r from-[#ff3b30] to-[#ff6b35] px-7 py-4 font-black text-white shadow-xl shadow-red-500/20 hover:brightness-110">Start chatting →</Link>
+              <Link href="/geo" className="rounded-2xl bg-white px-7 py-4 font-black text-black hover:bg-zinc-100">🌍 Play GeoGuess →</Link>
               <a href="#how" className="rounded-2xl border border-[#2a2a3a] bg-[#14141c] px-7 py-4 font-bold hover:bg-[#1a1a24]">How it works</a>
             </div>
             <div className="mt-6 flex flex-wrap gap-2 text-xs text-zinc-500">
@@ -86,6 +88,18 @@ export default function Home() {
         </div>
         <div className="mt-6 rounded-2xl border border-amber-500/20 bg-amber-500/10 p-4 text-sm text-amber-200">
           <b>18+ only.</b> No nudity, harassment, or illegal content. Be kind — violations = ban. WebRTC is peer-to-peer; we don’t record video.
+        </div>
+      </section>
+
+      {/* geo promo */}
+      <section className="mx-auto max-w-[1100px] px-4 pb-10">
+        <div className="rounded-2xl border border-[#ff3b30]/30 bg-gradient-to-r from-[#ff3b30]/15 to-[#ff6b35]/10 p-6 flex flex-wrap items-center gap-4">
+          <div className="text-4xl">🌍</div>
+          <div className="flex-1 min-w-[220px]">
+            <p className="font-black text-lg">New: CliparsGEO — GeoGuessr-style game</p>
+            <p className="text-sm text-zinc-400 mt-1">Random Street View drop · 5 rounds · guess on the map · challenge strangers with a link. No API key needed.</p>
+          </div>
+          <Link href="/geo" className="rounded-xl bg-white px-6 py-3 font-black text-black">Play now →</Link>
         </div>
       </section>
 

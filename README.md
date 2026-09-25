@@ -5,6 +5,7 @@ Omegle-style **random video chat** platform — free, peer-to-peer, no signup.
 - **Stack:** Next.js 14 (App Router) + Tailwind + **Supabase Realtime** (presence & broadcast) + **Vercel**
 - **Media:** WebRTC P2P (STUN: Google), no server recording
 - **Features:** random matchmaking, interest tags, text + video, Next/Skip, mute/cam toggle, report
+- **Game:** CliparsGEO (`/geo`) — GeoGuessr-style: random Street View drop, guess on OSM map, 5 rounds x 5000 pts, challenge links (`/geo?c=id1,id2,...`)
 
 ## Links
 

@@ -78,6 +78,7 @@ export default function ChatPage() {
             <span className="ml-2 hidden rounded-full bg-[#1a1a24] px-2.5 py-1 text-xs text-zinc-400 sm:inline">{onlineCount} online</span>
           </Link>
           <div className="flex items-center gap-2 text-xs">
+            <Link href="/geo" target="_blank" className="rounded-full bg-gradient-to-r from-[#ff3b30] to-[#ff6b35] px-3 py-1.5 font-bold text-white hover:brightness-110">🌍 Geo</Link>
             <span className={`h-2 w-2 rounded-full ${partner ? "bg-emerald-500" : searching ? "bg-amber-500 animate-pulse" : "bg-zinc-600"}`} />
             <span className="text-zinc-400 hidden sm:inline">{status}</span>
             <span className="rounded-full bg-[#1a1a24] px-2 py-1 text-zinc-300 sm:hidden">{status}</span>
